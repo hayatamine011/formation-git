@@ -3337,7 +3337,7 @@ Rec...</DefaultAnnotationText>
     </Node>
     <Node ToolID="82">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="137" y="54" width="892" height="415" />
+        <Position x="137" y="126" width="892" height="343" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3407,89 +3407,6 @@ Rec...</DefaultAnnotationText>
             </Annotation>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-        </Node>
-        <Node ToolID="75">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="297" y="98" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Passwords />
-              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">D:\AWS_Scripts\DATA_MEP_Delta\Client_Portfolio_tbl.yxdb</File>
-              <FormatSpecificOptions />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText>Client_Portfolio_tbl.yxdb</DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-            <MetaInfo connection="Output">
-              <RecordInfo>
-                <Field description="dt" name="a_date_time_created" source="Formula: DateTimeParse([_CurrentField_],&quot;%d/%m/%Y %H:%M:%S&quot;)" type="DateTime" />
-                <Field name="CIN" size="41" source="Formula: [_CurrentField_]" type="V_String" />
-                <Field name="CSP" size="255" source="Formula: [_CurrentField_]" type="String" />
-                <Field name="DOB" source="Formula: DateTimeParse([_CurrentField_],&quot;%d/%m/%Y %H:%M:%S&quot;)" type="DateTime" />
-                <Field name="EMAIL" size="255" source="Formula: [_CurrentField_]" type="String" />
-                <Field name="END_DATE" source="(Multiple Sources)" type="DateTime" />
-                <Field name="ENDO" source="(Multiple Sources)" type="Int32" />
-                <Field name="ENDORSEMENT_TYPE" size="61" source="In-DB:DB=HIVE_ODBC;" type="V_WString" />
-                <Field name="FN" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-                <Field name="FORMULE" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_WString" />
-                <Field name="LN" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-                <Field name="MARITAL_STATUS" size="255" source="Formula: [_CurrentField_]" type="V_String" />
-                <Field name="modified_date" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="NATURE" size="18" source="Formula: [_CurrentField_]" type="String" />
-                <Field name="OCCUPATION" size="255" source="Formula: [_CurrentField_]" type="String" />
-                <Field name="pol_acompte" source="Formula: Replace([pol_acompte], ',', '.')" type="Double" />
-                <Field name="pol_adhesion_num" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_agent_comm" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_amount_converted" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_clirequestdays" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_converted_points" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_crm_a_applique" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_crm_applique" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_crm_calc_mode" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_date_calcul_crm" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_end_prem_fraction" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="POL_EXT" size="30" source="(Multiple Sources)" type="V_String" />
-                <Field name="pol_fidelity_balance" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_fidelity_ind" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_mat_app" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_maturity_type_cde" source="In-DB:DB=HIVE_ODBC;" type="Int32" />
-                <Field name="pol_montant_reduction" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_nb_provisoire" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_nbfilleul" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_parrain" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_pay_freq_cde" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_premium_due" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field description="dt" name="pol_project_contract_date" source="Formula: DateTimeParse([_CurrentField_],&quot;%d/%m/%Y %H:%M:%S&quot;)" type="DateTime" />
-                <Field name="pol_rel_parrainfilleul_cde" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_status" size="255" source="(Multiple Sources)" type="V_WString" />
-                <Field name="pol_taux_reduction" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_taux_subvention" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_tax_amount" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_temp_ind" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_usage" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="pol_usage_cde" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="POLICY_KEY" size="17" source="(Multiple Sources)" type="V_String" />
-                <Field name="QUALITE" size="255" source="Formula: [_CurrentField_]" type="String" />
-                <Field name="RELATIONSHIP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
-                <Field name="Right_Right_status_fille" size="1073741823" source="Formula: if [Status_Fleet] = &quot;Fille&quot; and [typeMere] = &quot;1&quot;&#xA;then &quot;Y&quot; else Null() endif&#xA;" type="V_WString" />
-                <Field name="SECTION" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_WString" />
-                <Field name="SEXE" size="3" source="Formula: [_CurrentField_]" type="String" />
-                <Field name="START_DATE" source="(Multiple Sources)" type="DateTime" />
-                <Field name="status_fille" size="1073741823" source="Formula: if [Status_Fleet] = &quot;Fille&quot; and [typeMere] = &quot;1&quot;&#xA;then &quot;Y&quot; else Null() endif&#xA;" type="V_WString" />
-                <Field name="STATUS_FLEET" size="255" source="Formula: (Multiple Sources)" type="V_WString" />
-                <Field name="STATUT_POLICE" size="64" source="Formula: (Multiple Sources)" type="String" />
-                <Field name="typeMere" size="255" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="UCID" source="(Multiple Sources)" type="Int32" />
-                <Field name="VIP" source="Formula: IF [_CurrentFieldName_] IN(&quot;&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
-                <Field name="Right_status_fille" size="1073741823" source="Formula: if [Status_Fleet] = &quot;Fille&quot; and [typeMere] = &quot;1&quot;&#xA;then &quot;Y&quot; else Null() endif&#xA;" type="V_WString" />
-                <Field name="UNID" source="File: D:\AWS_Scripts\DATA_MEP_Delta\HISTORIQUE_CLIENT.yxdb" type="Int64" />
-              </RecordInfo>
-            </MetaInfo>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
         </Node>
         <Node ToolID="76">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
@@ -3959,10 +3876,6 @@ Table=SELECT * FROM `default`.`V_ODY_DETAIL_CLAIMS_base`</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="74" Connection="Join" />
       <Destination ToolID="73" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="75" Connection="Output" />
-      <Destination ToolID="74" Connection="Left" />
     </Connection>
     <Connection>
       <Origin ToolID="76" Connection="Output" />
