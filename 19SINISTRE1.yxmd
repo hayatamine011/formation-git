@@ -966,89 +966,6 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
       </ChildNodes>
     </Node>
-    <Node ToolID="28">
-      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3638" y="522" width="157" height="175" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Caption>Container 121</Caption>
-          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
-          <Folded value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <ChildNodes>
-        <Node ToolID="27">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="3663" y="566" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <File MaxRecords="" FileFormat="17">aka:ConOrcl|||INVENTAIRE_SINISTRE</File>
-              <Passwords />
-              <CachedCosmeticName />
-              <FormatSpecificOptions>
-                <DropTable>Delete</DropTable>
-                <TransactionSize>100000</TransactionSize>
-                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
-                <PostSQL />
-                <Projection />
-                <TableStyle>None</TableStyle>
-                <AppendMap>
-                  <AppendMapping mode="Custom">
-                    <Field Source="CHARGE" Dest="CHARGE" />
-                    <Field Source="CLM_EXT_CDE" Dest="CLM_EXT_CDE" />
-                    <Field Source="DATE_DECLARATION" Dest="DATE_DECLARATION" />
-                    <Field Source="DATE_OUVERTURE" Dest="DATE_OUVERTURE" />
-                    <Field Source="DATE_SURVENANCE" Dest="DATE_SURVENANCE" />
-                    <Field Source="ENDORSEMENT_CDE" Dest="ENDORSEMENT_CDE_G" />
-                    <Field Source="Exercice" Dest="EXERCICE" />
-                    <Field Source="GARANTIE" Dest="GARANTIE" />
-                    <Field Source="GENCLMRISK_KEY" Dest="GENCLMRISK_KEY" />
-                    <Field Source="NATURE_SINISTRE" Dest="NATURE_SINISTRE" />
-                    <Field Source="NATURE_SINISTRE_OD" Dest="NATURE_SINISTRE_OD" />
-                    <Field Source="POLICY_KEY" Dest="POLICY_KEY_G" />
-                    <Field Source="RCY_GENCLMRISK_CDE" Dest="RCY_GENCLMRISK_CDE" />
-                    <Field Source="REPONSABILITE" Dest="REPONSABILITE" />
-                    <Field Source="REPONSABILITE_RSK" Dest="REPONSABILITE_RSK" />
-                    <Field Source="RISQUE" Dest="RISQUE" />
-                    <Field Source="STATUT" Dest="STATUT" />
-                    <Field Source="Sum_Intervenant_Prvovision" Dest="SUM_INTERVENANT_PRVOVISION" />
-                    <Field Source="Sum_PROVISIONS_garanties" Dest="SUM_PROVISIONS_GARANTIES" />
-                    <Field Source="Sum_REGLEMENTS_garanties" Dest="SUM_REGLEMENTS_GARANTIES" />
-                    <Field Source="Sum_REGLEMENTS_INTERVENANT" Dest="SUM_REGLEMENTS_INTERVENANT" />
-                    <Field Source="Sum_Sum_ProvisionRecourEmis" Dest="SUM_SUM_PROVISIONRECOUREMIS" />
-                    <Field Source="Sum_Sum_ProvisionRecourSubi" Dest="SUM_SUM_PROVISIONRECOURSUBI" />
-                    <Field Source="Sum_Sum_RecoursEmis" Dest="SUM_SUM_RECOURSEMIS" />
-                    <Field Source="Sum_Sum_RecoursEmisRecuperer" Dest="SUM_SUM_RECOURSEMISRECUPERER" />
-                    <Field Source="Sum_Sum_RecoursSubis" Dest="SUM_SUM_RECOURSSUBIS" />
-                    <Field Source="Sum_Sum_RecoursSubisPayer" Dest="SUM_SUM_RECOURSSUBISPAYER" />
-                    <Field Source="LIEU_SURVENANCE" Dest="LIEU_SURVENANCE" />
-                  </AppendMapping>
-                </AppendMap>
-                <PreSQL />
-                <CreateSpatialIdx>True</CreateSpatialIdx>
-                <TransactionMessages>True</TransactionMessages>
-              </FormatSpecificOptions>
-              <MultiFile value="False" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText>aka:ConOrcl
-Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
-        </Node>
-      </ChildNodes>
-    </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
         <Position x="641" y="1116" width="307" height="223" />
@@ -2553,7 +2470,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
     </Node>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="299" y="1764" width="496" height="421" />
+        <Position x="299" y="1764" width="496" height="200" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2691,67 +2608,6 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
             </Annotation>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-        </Node>
-        <Node ToolID="54">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="396" y="2069" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Passwords />
-              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">D:\AWS_Scripts\DATA_MEP\VEHICLE_CLIENT.yxdb</File>
-              <FormatSpecificOptions />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText>VEHICLE_CLIENT.yxdb</DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-            <MetaInfo connection="Output">
-              <RecordInfo>
-                <Field name="POLICY_KEY" size="17" source="(Multiple Sources)" type="V_String" />
-                <Field name="ENDORSEMENT_CDE" source="In-DB:DB=HIVE_ODBC;" type="Double" />
-                <Field name="VEH_RELATIONSHIP_CDE" source="Formula: replace([_CurrentField_],',','.')" type="Int32" />
-                <Field name="VEH_REGISTRATION1" size="51" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_TYPEMINE_CDE" size="51" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_DESC" size="152" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="MOD_DESC" size="101" source="In-DB:DB=HIVE_ODBC;" type="V_String" />
-                <Field name="VEH_CARBODY" size="251" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_WEIGHTLOAD" source="Formula: replace([_CurrentField_],',','.')" type="Int64" />
-                <Field name="VEH_SEATS_NO" source="Formula: replace([_CurrentField_],',','.')" type="Int64" />
-                <Field name="VEH_CIRCULATION_DAT" source="Formula: DateTimeParse([_CurrentField_],&quot;%d/%m/%Y %H:%M:%S&quot;)" type="DateTime" />
-                <Field name="VEH_HORSEPOWER" source="Formula: replace([_CurrentField_],',','.')" type="Int16" />
-                <Field name="VEH_COMBUSTION" size="21" source="Formula: replace([_CurrentField_],',','.')" type="String" />
-                <Field name="VEH_CYLINDER" source="Formula: replace([_CurrentField_],',','.')" type="Int64" />
-                <Field name="VEH_ADDEDSEATS_NO" source="Formula: replace([_CurrentField_],',','.')" type="Int32" />
-                <Field name="VEH_NEWVALUE_AMT" source="Formula: replace([_CurrentField_],',','.')" type="Double" />
-                <Field name="VEH_VCONV_AMT" source="Formula: replace([_CurrentField_],',','.')" type="Double" />
-                <Field name="VEH_MARKETVALUE_AMT" source="Formula: replace([_CurrentField_],',','.')" type="Double" />
-                <Field name="VEH_MIRRORSVALUE_AMT" source="Formula: replace([_CurrentField_],',','.')" type="Double" />
-                <Field name="VEH_EXTINGUISHER_MAKE" size="51" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_EXTINGUISHER_NO" source="Formula: replace([_CurrentField_],',','.')" type="Int16" />
-                <Field name="VEH_EXCLUSIVELINE_IND" size="3" source="Formula: replace([_CurrentField_],',','.')" type="String" />
-                <Field name="VEH_RADIO_AMT" source="Formula: replace([_CurrentField_],',','.')" type="Double" />
-                <Field name="VEH_AUDIOVIDEO" size="71" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_AUDIOVIDEO_AMT" source="Formula: replace([_CurrentField_],',','.')" type="Double" />
-                <Field name="VEH_ADDEDEQUIPMENT" size="71" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_ADDEDEQUIPMENT_AMT" source="Formula: replace([_CurrentField_],',','.')" type="Double" />
-                <Field name="VEH_CATEGORY_CDE" source="Formula: replace([_CurrentField_],',','.')" type="Int32" />
-                <Field name="VCT_DESC" size="101" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_USAGE_CDE" source="Formula: replace([_CurrentField_],',','.')" type="Int32" />
-                <Field name="USE_DESC" size="101" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_FROMCARD" size="4" source="Formula: replace([_CurrentField_],',','.')" type="String" />
-                <Field name="VEH_NAME" size="251" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_FIRSTNAME" size="101" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_COMPLEMENT" size="301" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_POSTALCODE" size="21" source="Formula: replace([_CurrentField_],',','.')" type="String" />
-                <Field name="VEH_COMMUNE" size="201" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-                <Field name="VEH_REGISTRATION2" size="51" source="Formula: if IsEmpty([VEH_REGISTRATION2]) or IsNull([VEH_REGISTRATION2]) then 'INR' else [VEH_REGISTRATION2] endif" type="V_String" />
-                <Field name="VEH_REGISTRATION3" size="255" source="Formula: replace([_CurrentField_],',','.')" type="V_String" />
-              </RecordInfo>
-            </MetaInfo>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
         </Node>
         <Node ToolID="55">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
@@ -3790,10 +3646,6 @@ Table=SELECT * FROM `default`.`V_ODY_DETAIL_CLAIMS_base`</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="21" Connection="Unique" />
-      <Destination ToolID="27" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="21" Connection="Unique" />
       <Destination ToolID="25" Connection="Input" />
     </Connection>
     <Connection>
@@ -3891,10 +3743,6 @@ Table=SELECT * FROM `default`.`V_ODY_DETAIL_CLAIMS_base`</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="52" Connection="Output" />
       <Destination ToolID="53" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="54" Connection="Output" />
-      <Destination ToolID="53" Connection="Right" />
     </Connection>
     <Connection name="#1">
       <Origin ToolID="53" Connection="Join" />
