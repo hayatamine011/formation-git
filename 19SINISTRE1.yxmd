@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="11.7">
+<AlteryxDocument yxmdVer="2018.1">
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="2740.5" y="607.5" />
+        <Position x="2736" y="611" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -22,7 +22,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2776.5" y="688.5" />
+        <Position x="2772" y="692" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -235,7 +235,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="2875.5" y="679.5" />
+        <Position x="2871" y="683" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -259,7 +259,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="3370.5" y="580.5" />
+        <Position x="3366" y="584" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -313,7 +313,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="967.5" y="940.5" />
+        <Position x="963" y="944" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -347,7 +347,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings>
-        <Position x="1066.5" y="940.5" />
+        <Position x="1062" y="944" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -373,7 +373,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1156.5" y="796.5" />
+        <Position x="1152" y="800" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -419,7 +419,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1345.5" y="742.5" />
+        <Position x="1341" y="746" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -446,7 +446,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings>
-        <Position x="1255.5" y="778.5" />
+        <Position x="1251" y="782" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -472,7 +472,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings>
-        <Position x="2668.5" y="652.5" />
+        <Position x="2664" y="656" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -498,7 +498,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings>
-        <Position x="1156.5" y="310.5" />
+        <Position x="1152" y="314" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -524,7 +524,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="LockInGui.LockInStreamOut.LockInStreamOut">
-        <Position x="202.5" y="571.5" />
+        <Position x="198" y="575" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -540,7 +540,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-        <Position x="355.5" y="553.5" />
+        <Position x="351" y="557" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -580,7 +580,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="292.5" y="580.5" />
+        <Position x="288" y="584" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -601,7 +601,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
-        <Position x="58.5" y="481.5" />
+        <Position x="54" y="485" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -619,7 +619,7 @@ Table=SELECT * FROM `default`.`V_OD_RISKRECOVERY_LISTALL_base`</DefaultAnnotatio
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
-        <Position x="112.5" y="1516.5" />
+        <Position x="108" y="1520" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -637,7 +637,7 @@ Table=SELECT * FROM `default`.`V_ODY_INTERVENANT_base`</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="LockInGui.LockInStreamOut.LockInStreamOut">
-        <Position x="220.5" y="1543.5" />
+        <Position x="216" y="1547" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -653,7 +653,7 @@ Table=SELECT * FROM `default`.`V_ODY_INTERVENANT_base`</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="310.5" y="1552.5" />
+        <Position x="306" y="1556" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -674,7 +674,7 @@ Table=SELECT * FROM `default`.`V_ODY_INTERVENANT_base`</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2344.5" y="832.5" />
+        <Position x="2340" y="836" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -694,7 +694,7 @@ Table=SELECT * FROM `default`.`V_ODY_INTERVENANT_base`</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3487.5" y="760.5" />
+        <Position x="3483" y="764" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -722,7 +722,7 @@ Table=SELECT * FROM `default`.`V_ODY_INTERVENANT_base`</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="3460.5" y="580.5" />
+        <Position x="3456" y="584" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -742,7 +742,7 @@ Table=SELECT * FROM `default`.`V_ODY_INTERVENANT_base`</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="3154.5" y="598.5" />
+        <Position x="3150" y="602" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -762,7 +762,7 @@ Table=SELECT * FROM `default`.`V_ODY_INTERVENANT_base`</DefaultAnnotationText>
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3874.5" y="580.5" width="198" height="76" />
+        <Position x="3870" y="584" width="198" height="76" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -784,7 +784,7 @@ ON : 17/04/2018</Text>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1300.5" y="418.5" />
+        <Position x="1296" y="422" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -885,14 +885,14 @@ ON : 17/04/2018</Text>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3892.5" y="661.5" width="112.7585" height="19" />
+        <Position x="3888" y="665" width="142.7585" height="50" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>Container 126</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
           <Disabled value="True" />
-          <Folded value="True" />
+          <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -903,7 +903,7 @@ ON : 17/04/2018</Text>
       <ChildNodes>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="3919.5" y="706.5" />
+            <Position x="3915" y="710" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -968,7 +968,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="3642.5" y="518.5" width="157.5" height="175.5" />
+        <Position x="3638" y="522" width="157" height="175" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -986,7 +986,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="27">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="3667.5" y="562.5" />
+            <Position x="3663" y="566" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1051,7 +1051,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="645" y="1112.5" width="307.5" height="223.5" />
+        <Position x="641" y="1116" width="307" height="223" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1069,7 +1069,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="29">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="868.5" y="1156.5" />
+            <Position x="864" y="1160" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1088,7 +1088,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="30">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="670.5" y="1174.5" />
+            <Position x="666" y="1178" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1105,7 +1105,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="31">
           <GuiSettings>
-            <Position x="769.5" y="1174.5" />
+            <Position x="765" y="1178" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1133,7 +1133,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1419.5" y="500.5" width="1207" height="218" />
+        <Position x="1415" y="504" width="1207" height="218" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1151,7 +1151,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="33">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1444.5" y="625.5" />
+            <Position x="1440" y="629" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -1183,7 +1183,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="34">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1705.5" y="544.5" />
+            <Position x="1701" y="548" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1211,7 +1211,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="35">
           <GuiSettings>
-            <Position x="2182.5" y="634.5" />
+            <Position x="2178" y="638" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1237,7 +1237,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="1597.5" y="634.5" />
+            <Position x="1593" y="638" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1373,7 +1373,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1903.5" y="607.5" />
+            <Position x="1899" y="611" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -1406,7 +1406,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1804.5" y="562.5" />
+            <Position x="1800" y="566" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1426,7 +1426,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="2380.5" y="571.5" />
+            <Position x="2376" y="575" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -1660,7 +1660,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="40">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="2092.5" y="625.5" />
+            <Position x="2088" y="629" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1814,7 +1814,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="41">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1993.5" y="616.5" />
+            <Position x="1989" y="620" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1835,7 +1835,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="42">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2281.5" y="571.5" />
+            <Position x="2277" y="575" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1922,7 +1922,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="43">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2542.5" y="616.5" />
+            <Position x="2538" y="620" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2112,7 +2112,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="44">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="2470.5" y="589.5" />
+            <Position x="2466" y="593" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2377,7 +2377,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
     </Node>
     <Node ToolID="51">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="465.5" y="1400.5" width="316" height="306.5" />
+        <Position x="461" y="1404" width="316" height="307" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2395,7 +2395,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="46">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="562.5" y="1444.5" />
+            <Position x="558" y="1448" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2414,7 +2414,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="47">
           <GuiSettings>
-            <Position x="490.5" y="1444.5" />
+            <Position x="486" y="1448" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2440,7 +2440,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="48">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="697.5" y="1561.5" />
+            <Position x="693" y="1565" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2471,7 +2471,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="49">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="499.5" y="1561.5" />
+            <Position x="495" y="1565" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2512,7 +2512,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="598.5" y="1543.5" />
+            <Position x="594" y="1547" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2553,7 +2553,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
     </Node>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="303" y="1760.5" width="496.5" height="420.5" />
+        <Position x="299" y="1764" width="496" height="421" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2571,7 +2571,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="52">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="328.5" y="1804.5" />
+            <Position x="324" y="1808" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2655,7 +2655,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="53">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="598.5" y="1867.5" />
+            <Position x="594" y="1871" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -2694,7 +2694,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="54">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="400.5" y="2065.5" />
+            <Position x="396" y="2069" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2755,7 +2755,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="55">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="715.5" y="1876.5" />
+            <Position x="711" y="1880" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2950,7 +2950,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
     </Node>
     <Node ToolID="66">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="141" y="725.5" width="558" height="343.5" />
+        <Position x="137" y="729" width="557" height="343" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2968,7 +2968,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="57">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="571.5" y="805.5" />
+            <Position x="567" y="809" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2985,7 +2985,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="60">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="472.5" y="922.5" />
+            <Position x="468" y="926" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3022,7 +3022,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="61">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="274.5" y="922.5" />
+            <Position x="270" y="926" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3067,7 +3067,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="62">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="373.5" y="922.5" />
+            <Position x="369" y="926" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3109,7 +3109,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="63">
           <GuiSettings Plugin="LockInGui.LockInStreamOut.LockInStreamOut">
-            <Position x="274.5" y="805.5" />
+            <Position x="270" y="809" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3125,7 +3125,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="64">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="364.5" y="814.5" />
+            <Position x="360" y="818" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3146,7 +3146,7 @@ Table=INVENTAIRE_SINISTRE</DefaultAnnotationText>
         </Node>
         <Node ToolID="65">
           <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
-            <Position x="166.5" y="769.5" />
+            <Position x="162" y="773" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3166,7 +3166,7 @@ Table=SELECT * FROM `default`.`V_ODY_PAYMENT_base`</DefaultAnnotationText>
     </Node>
     <Node ToolID="72">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="456.5" y="473.5" width="496" height="234.5" />
+        <Position x="452" y="477" width="496" height="235" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3184,7 +3184,7 @@ Table=SELECT * FROM `default`.`V_ODY_PAYMENT_base`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="67">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="670.5" y="517.5" />
+            <Position x="666" y="521" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3210,7 +3210,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="68">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="868.5" y="517.5" />
+            <Position x="864" y="521" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3234,7 +3234,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="69">
           <GuiSettings>
-            <Position x="769.5" y="517.5" />
+            <Position x="765" y="521" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3260,7 +3260,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="70">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="571.5" y="526.5" />
+            <Position x="567" y="530" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3297,7 +3297,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="71">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="481.5" y="526.5" />
+            <Position x="477" y="530" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3337,7 +3337,7 @@ Rec...</DefaultAnnotationText>
     </Node>
     <Node ToolID="82">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="141" y="50.5" width="892" height="415.5" />
+        <Position x="137" y="54" width="892" height="415" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3355,7 +3355,7 @@ Rec...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="73">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="904.5" y="193.5" />
+            <Position x="900" y="197" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3374,7 +3374,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="74">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="796.5" y="166.5" />
+            <Position x="792" y="170" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -3410,7 +3410,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="75">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="301.5" y="94.5" />
+            <Position x="297" y="98" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3493,7 +3493,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="76">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="742.5" y="256.5" />
+            <Position x="738" y="260" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3539,7 +3539,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="77">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="544.5" y="256.5" />
+            <Position x="540" y="260" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3558,7 +3558,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="78">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="454.5" y="256.5" />
+            <Position x="450" y="260" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3609,7 +3609,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="79">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="346.5" y="274.5" />
+            <Position x="342" y="278" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3656,7 +3656,7 @@ Rec...</DefaultAnnotationText>
         </Node>
         <Node ToolID="80">
           <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
-            <Position x="166.5" y="274.5" />
+            <Position x="162" y="278" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3674,7 +3674,7 @@ Table=SELECT * FROM `default`.`V_ODY_DETAIL_CLAIMS_base`</DefaultAnnotationText>
         </Node>
         <Node ToolID="81">
           <GuiSettings Plugin="LockInGui.LockInStreamOut.LockInStreamOut">
-            <Position x="256.5" y="274.5" />
+            <Position x="252" y="278" />
           </GuiSettings>
           <Properties>
             <Configuration>
